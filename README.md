@@ -1,21 +1,25 @@
 # Health Journal - MySQL DB
 
----
+This project contains the MySQL Server needed for the Health Journal App Database.
 
 ## Setup
 
 ### Environment Variables
 
-- Create a .env file containing `MYSQL_ROOT_PASSWORD=<PASS_HERE`
+- Create a `.env` file containing
 
-### Docker
+```bash
+MYSQL_ROOT_PASSWORD=<PASSWORD HERE>
+```
 
-- Install and run Docker
-
-### Start Server
+### Starting Server
 
 - `docker-compose up`
 
 ### MySQL Workbench
 
 ![MySQL Workbench Setup](./images/connection-setup.png)
+
+### Shutting Down Server
+
+- `docker-compose down`
