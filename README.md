@@ -1,6 +1,6 @@
 # Health Journal - MySQL DB
 
-This project contains the MySQL Server needed for the Health Journal App Database.
+This project contains the MySQL Server needed for the Health Journal App Database. DB runs on port `3308`.
 
 ## Setup
 
