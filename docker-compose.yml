@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mysql-dev:
+      image: mysql:8.0.21
+      environment:
+        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+        MYSQL_DATABASE: healthDB
+      ports:
+        - "3308:3306"
