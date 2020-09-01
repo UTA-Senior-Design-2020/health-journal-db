@@ -14,7 +14,7 @@
 
 ### Start Server
 
-- `docker-compose run`
+- `docker-compose up`
 
 ### MySQL Workbench
 
